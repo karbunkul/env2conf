@@ -1,0 +1,21 @@
+{
+    "name": "env2conf",
+    "version": "0.0.1",
+    "description": "Load env to config",
+    "main": "lib/main.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "keywords": [
+        "env",
+        "config"
+    ],
+    "author": "Alexander Pokhodyun",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^4.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
