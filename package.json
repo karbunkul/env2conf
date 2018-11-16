@@ -1,12 +1,16 @@
 {
-    "name": "env2conf",
-    "version": "0.0.3",
-    "description": "Load env to config",
-    "main": "lib/index.js",
-    "keywords": [
-        "env",
-        "config"
-    ],
-    "author": "Alexander Pokhodyun",
-    "license": "MIT"
+  "name": "env2conf",
+  "version": "0.0.3",
+  "description": "Load env to config",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "nodemon $NODE_DEBUG_OPTION lib/index.js",
+    "test": "mocha 'lib/**/__tests__/*' -R spec"
+  },
+  "keywords": [
+    "env",
+    "config"
+  ],
+  "author": "Alexander Pokhodyun",
+  "license": "MIT"
 }
