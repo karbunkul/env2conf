@@ -4,7 +4,6 @@
   "description": "Load env to config",
   "main": "lib/index.js",
   "scripts": {
-    "start": "nodemon $NODE_DEBUG_OPTION lib/index.js",
     "test": "mocha 'lib/**/__tests__/*' -R spec"
   },
   "keywords": [
@@ -12,5 +11,11 @@
     "config"
   ],
   "author": "Alexander Pokhodyun",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.5.5"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
