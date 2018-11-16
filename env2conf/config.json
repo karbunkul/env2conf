@@ -1,7 +1,0 @@
-{
-    "required": [
-        "DEV",
-        "TEST",
-        "AMEBA"
-    ]
-}
