@@ -1,0 +1,25 @@
+{
+  "variables": [
+    {
+      "name": "STRING_ENV"
+    },
+    {
+      "name": "BYTE_ENV",
+      "type": "number",
+      "constraints": {
+        "minimum": 0,
+        "maximum": 255
+      }
+    }
+  ],
+  "environments": {
+    "production": {
+      "STRING_ENV": "production value",
+      "BYTE_ENV": 256
+    },
+    "development": {
+      "STRING_ENV": "development value",
+      "BYTE_ENV": 254
+    }
+  }
+}
