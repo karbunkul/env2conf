@@ -1,7 +1,6 @@
-env2conf
 package-lock.json
-app.js
 .editorconfig
 .npmignore
 .yarn.lock
 node_modules
+.env2conf.json
